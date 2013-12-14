@@ -1,13 +1,17 @@
 apply plugin: 'java'
+
 apply plugin: 'eclipse'
+apply plugin: 'idea'
+
 apply plugin: 'maven'
 
 sourceCompatibility = 1.6
 version = '1.0'
+title = 'CHANGE_THIS'
 
 jar {
   manifest {
-      attributes 'Implementation-Title': 'decimal-index-api', 'Implementation-Version': version
+      attributes 'Implementation-Title': title, 'Implementation-Version': version
   }
 }
 
